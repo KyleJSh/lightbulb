@@ -1,6 +1,6 @@
 # A very simple lightbulb page with basic JavaScript.
 
-![Lightbulb Screenshot](/images/lightbulb_screenshot.png "Page")
+![Lightbulb Screenshot](/images/lightbulb_screenshot.png "Such awesome!")
 <br />
 ## No page is complete without a button to play Metallica's "Ride The Lightning"
 
