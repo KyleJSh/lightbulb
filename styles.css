@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: rgb(72, 72, 72);
+  background-image: url(https://images.unsplash.com/photo-1488390224393-39b815d3cb3b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1350&q=80);
+}
+
+.audio-container {
+  /* background-color: beige; */
+  text-align: left;
+  color: white;
+}
+
+.audio-title {
+  text-transform: uppercase;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+
+button {
+  color: rgb(50, 50, 50);
+  font-size: 1.3rem;
+  background-color: rgb(90, 214, 32);
+  margin: 15px;
+  margin-left: 7px;
+  border-radius: 4px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.title {
+  margin: 20px;
+}
+
+.buttons-container {
+  /* background-color: coral; */
+  margin-left: 15px;
+}

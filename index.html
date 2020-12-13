@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Lightbulb</title>
+</head>
+
+<body>
+  <div class="audio-container">
+    <div class="audio-title">
+      <h3>Metallica - Ride The Lightning!</h3>
+    </div>
+    <div class="audio-controls">
+      <audio controls>
+        <source src="audio/metallica_ride_the_lightning.mp3" type="audio/mp3">
+        <source src="audio/metallica_ride_the_lightning.ogg" type="audio/ogg">
+        <source src="audio/metallica_ride_the_lightning.wav" type="audio/wav">
+        Your browser does not support the audio element (Metallica - Ride The Lightning)
+      </audio>
+    </div>
+  </div>
+  <div class="title">
+    <h1>The Lightbulb</h1>
+  </div>
+
+  <img id="bulb" src="/images/lightbulb_off.png" alt="" width="200px">
+
+  <br><br>
+
+  <div class="buttons-container">
+    <button onclick="light(1)">Turn ON</button>
+    <button onclick="light(0)">Turn OFF</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+
+</html>
