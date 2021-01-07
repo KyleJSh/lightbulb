@@ -1,7 +1,11 @@
-# A very simple lightbulb page with basic JavaScript.
+# Simple lightbulb page with basic JavaScript. No .js file needed!
 
-![Lightbulb Screenshot](/images/lightbulb_screenshot.png "Such awesome!")
-<br />
-## No page is complete without a button to play Metallica's "Ride The Lightning"
+![Screenshot](/images/screenshot1.png)
 
-### Turn the light off and on. That is all :)
+<hr />
+
+## Responsive at 600px
+
+![Screenshot 2](/images/screenshot2.png)
+
+### No page is complete without a button to play Metallica's "Ride The Lightning"

@@ -26,13 +26,13 @@
     <h1>The Lightbulb</h1>
   </div>
 
-  <img id="bulb" src="/images/lightbulb_off.png" alt="" width="200px">
+  <div class="img-container">
+    <img src="/images/lightbulb_off.png" id="myImage" alt="">
+  </div>
 
-  <br><br>
-
-  <div class="buttons-container">
-    <button onclick="light(1)">Turn ON</button>
-    <button onclick="light(0)">Turn OFF</button>
+  <div class="btns">
+    <button onclick="document.getElementById('myImage').src='/images/lightbulb_on.png'">Turn ON</button>
+    <button onclick="document.getElementById('myImage').src='/images/lightbulb_off.png'">Turn OFF</button>
   </div>
 
   <script src="main.js"></script>
